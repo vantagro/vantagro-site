@@ -1,184 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VantAgro | Gestão Inteligente do Agro</title>
+<meta charset="UTF-8">
+<title>VantAgro System</title>
 
-  <style>
-    body{
-      margin:0;
-      font-family: Arial, Helvetica, sans-serif;
-      background:#0f172a;
-      color:white;
-    }
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0b0f14;
+  color:white;
+  text-align:center;
+}
 
-    header{
-      padding:20px 40px;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      background:#0b1220;
-    }
+header{
+  background:#111;
+  padding:20px;
+  font-size:26px;
+  font-weight:bold;
+}
 
-    .logo{
-      font-size:22px;
-      font-weight:bold;
-      color:#22c55e;
-    }
+header span{
+  color:#29d34a;
+}
 
-    .btn{
-      background:#22c55e;
-      padding:12px 22px;
-      border-radius:8px;
-      color:#000;
-      font-weight:bold;
-      text-decoration:none;
-    }
+.hero{
+  padding:100px 20px;
+  background:linear-gradient(135deg,#15803d,#0f172a);
+}
 
-    .hero{
-      text-align:center;
-      padding:120px 20px;
-    }
+h1{
+  font-size:42px;
+}
 
-    .hero h1{
-      font-size:44px;
-      margin-bottom:20px;
-    }
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 25px;
+  background:#29d34a;
+  color:black;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+}
 
-    .hero p{
-      font-size:20px;
-      opacity:0.8;
-      margin-bottom:30px;
-    }
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  padding:60px 20px;
+}
 
-    section{
-      padding:80px 30px;
-      text-align:center;
-    }
+.card{
+  background:#151b23;
+  padding:30px;
+  width:250px;
+  border-radius:10px;
+}
 
-    .grid{
-      display:grid;
-      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-      gap:25px;
-      margin-top:40px;
-    }
-
-    .card{
-      background:#1e293b;
-      padding:25px;
-      border-radius:12px;
-    }
-
-    footer{
-      padding:40px;
-      background:#0b1220;
-      text-align:center;
-      opacity:0.7;
-    }
-  </style>
+footer{
+  background:#111;
+  padding:30px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <div class="logo">VantAgro</div>
-  <a class="btn" href="https://wa.me/5566996476976">Falar no WhatsApp</a>
+Vant<span>Agro</span> System
 </header>
 
-
 <section class="hero">
-  <h1>Gestão Inteligente para o Agro</h1>
-  <p>
-    Controle pulverizações, operações, equipes e resultados em um único sistema.
-    Mais produtividade. Mais lucro. Menos planilhas.
-  </p>
-  <a class="btn" href="#">Testar Plataforma</a>
+<h1>Gestão Inteligente para o Agro</h1>
+<p>Sistema agrícola para pulverização, drones, máquinas terrestres e gestão de operações.</p>
+
+<a class="btn" href="https://wa.me/5566996476976">Falar no WhatsApp</a>
 </section>
 
-
-<section>
-  <h2>O que o VantAgro faz por você</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      🚁<br><br>
-      Gestão de pulverização com drone, trator ou avião
-    </div>
-
-    <div class="card">
-      📊<br><br>
-      Relatórios automáticos e controle operacional
-    </div>
-
-    <div class="card">
-      🌾<br><br>
-      Gestão de propriedades e talhões
-    </div>
-
-    <div class="card">
-      👥<br><br>
-      Controle de equipes, máquinas e aplicações
-    </div>
-
-  </div>
-</section>
-
-
-<section style="background:#162032;">
-  <h2>Ideal para</h2>
-
-  <div class="grid">
-    <div class="card">Prestadores de serviço com drone</div>
-    <div class="card">Pulverização terrestre</div>
-    <div class="card">Avião agrícola</div>
-    <div class="card">Consultores e fazendas</div>
-  </div>
-</section>
-
-
-<section>
-  <h2>Planos de Lançamento</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <h3>Primeiro Lote</h3>
-      <h1>R$ 30</h1>
-      50 usuários<br><br>
-      Acesso vitalício
-    </div>
-
-    <div class="card">
-      <h3>Segundo Lote</h3>
-      <h1>R$ 50</h1>
-      30 usuários<br><br>
-      Acesso vitalício
-    </div>
-
-    <div class="card">
-      <h3>Terceiro Lote</h3>
-      <h1>R$ 60</h1>
-      20 usuários<br><br>
-      Acesso vitalício
-    </div>
-
-  </div>
-</section>
-
-
-<section style="background:#22c55e;color:#000;">
-  <h2>Pronto para profissionalizar sua operação?</h2>
-  <br>
-  <a class="btn" href="https://wa.me/5566996476976">Falar com especialista</a>
-</section>
-
+<div class="cards">
+  <div class="card">🚁<br><br>Drones Agrícolas</div>
+  <div class="card">🚜<br><br>Pulverização Terrestre</div>
+  <div class="card">✈️<br><br>Aviação Agrícola</div>
+  <div class="card">📊<br><br>Gestão de Dados</div>
+</div>
 
 <footer>
-  © 2026 VantAgro • Gestão Inteligente do Agro<br>
-  contato@vantagrosystem.com.br
+contato@vantagrosystem.com.br<br>
+© 2026 VantAgro System
 </footer>
 
 </body>
